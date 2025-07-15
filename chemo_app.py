@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load all models and scaler
-chemo_model = joblib.load("logistic_chemo_model.pkl")
+chemo_model = joblib.load("chemo.pkl")
 hormone_model = joblib.load("hormone.pkl")
 radio_model = joblib.load("radio.pkl")
 scaler = joblib.load("scaler.pkl")
